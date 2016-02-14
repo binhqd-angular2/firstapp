@@ -42,8 +42,10 @@
   "files": [
     "./src/app/app.component.ts",
     "./src/app/hero-detail.component.ts",
+    "./src/app/hero.service.ts",
     "./src/app/hero.ts",
     "./src/app/main.ts",
+    "./src/app/mock-heroes.ts",
     "./typings/browser.d.ts",
     "./typings/browser/ambient/es6-shim/es6-shim.d.ts",
     "./typings/main.d.ts",
