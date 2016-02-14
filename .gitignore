@@ -1,4 +1,6 @@
 node_modules/
+node_modules/**/*
 npm-debug*
-app/*.js
-app/*.map
+app/**/*.js
+app/**/*.map
+.tmp

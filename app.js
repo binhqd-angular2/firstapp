@@ -10,7 +10,7 @@ var path = require('path');
 var app = express();
 var server = http.createServer(app);
 
-var __dirname = 'src';
+var __dirname = '.';
 app.use(express.static(__dirname));
 app.all('/*', function(req, res, next) {
     // Just send the index.html for other files to support HTML5Mode
