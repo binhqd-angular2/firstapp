@@ -1,0 +1,14 @@
+{
+  "development": {
+    "ENV": {
+      "name": "development",
+      "apiEndpoint": "http://localhost:3010",
+    }
+  },
+  "production": {
+    "ENV": {
+      "name": "production",
+      "apiEndpoint": "https://api.pmtoolbelt.com",
+    }
+  }
+}
